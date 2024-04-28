@@ -1,0 +1,63 @@
+.sky{
+	height: 100vh;
+	position: relative;
+	background-color: #00ccff;
+	overflow-x: hidden;
+}
+.clouds{
+	position: absolute;
+	top: 10px;
+	height: 200px;
+	right: 0;
+	left: -2000px;
+	width: 500%;
+	background-image: url(https://static.vecteezy.com/system/resources/thumbnails/012/595/172/small/realistic-white-cloud-png.png);
+	background-repeat: repeat-x;
+	animation: clouds 50s linear infinite;
+}
+@keyframes clouds {
+  from {left: 0px;}
+  to {right: 100px;}
+
+}
+img{
+
+top: 200px;
+	left: 450px;
+	position: absolute;
+	transition: all 4s;
+
+}
+img:hover{
+	transform: rotate(360deg);
+}
+ .m{
+	position: absolute;
+	bottom: 50px;
+	height: 200px;
+	right: 0;
+	left: -2000px;
+	width: 500%;
+	background-image: url(https://i.pinimg.com/originals/6a/53/94/6a5394b1e9ae8952026ceb38dc9d87f5.png);
+	background-repeat: repeat-x;
+	animation: mountain 10s linear infinite;
+}
+@keyframes mountain {
+  from {left: 0px;}
+  to {right: 100px;}
+	width: 100%;
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
